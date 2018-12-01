@@ -2,21 +2,21 @@
 
 Hello!
 
-Запуск проекта: в папкe проекта установить node.modules      -- npm i
-                запустить локальный сервер                   ng serve --open
+Запуск проекта: <br> в папкe проекта установить node.modules      -- npm i
+                <br>запустить локальный сервер                   ng serve --open
 
 
-File: _template-form-user
-Name: </template_form-user>
-Component add in head template in ./app.component.ts
 
-Parameter validation.
-input[name="name"]          value.length > 3 && [a-zA-Za-яА-Я]+     required
-input[name="username"]      value.length > 3 && [a-zA-Za-яА-Я]+     required
-input[name="tel"]           ^\+380\d{3}\d{2}\d{2}\d{2}$+            required
+Files: _template-form-user<br>
+Name component: </template_form-user><br>
+Component add in head template in ./app.component.ts<br>
 
+Parameter validation.<br>
+input[name="name"]          value.length > 3 && [a-zA-Za-яА-Я]+     required<br>
+input[name="username"]      value.length > 3 && [a-zA-Za-яА-Я]+     required<br>
+input[name="tel"]           ^\+380\d{3}\d{2}\d{2}\d{2}$+            required<br>
 
-Submit Function is :
+Submit Function is :<br>
                     processForm()
                     console.log(user)
                     
